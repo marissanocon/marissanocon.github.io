@@ -1,2 +1,3 @@
-# marissanocon.github.io
- my first published website
+## Documentation for Business Card
+
+For my first website, I wanted to show a bit of who I am by incorporating some handwritten and hand-drawn work. This business card would be a great way to put myself out there as I add onto my portfolio. I have not shared much on social media yet where this would be a good start to do so. I think the transparency in my business card is not something many others have done. For the hand-drawn aspects of it I started on Procreate and brought that into Illustrator as a vector to clean it up. I created my mockups on Figma.
