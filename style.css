@@ -46,8 +46,8 @@ body {
   z-index: -2;
   margin: 0px;
   padding: 0px;
-  top:  -240px;
-  right: 5px;
+  top:  -230px;
+  right: 20px;
   width: 75%;
 }
 
@@ -100,14 +100,14 @@ h3{
 
 /* How links are styled on page load and also after a link has been visited */
 a:link, a:visited {
-  color: #0b8577;
+  color: #d5cdd8;
   padding: 0px 0px;
   text-align: center;
   text-decoration: none;
 }
 /* how a link is styled when you hover over it */
 a:hover {
-  color: rgb(0, 151, 206);
+  color: rgb(91, 77, 95);
 }
 
 /* specific styling to scale elements down for mobile */
@@ -118,17 +118,59 @@ a:hover {
   }
   
   h1{
-    top: 20px;
-    font-size: 30px;
+    margin-top: 20px;
+    padding: 0px 0px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    left: 125px;
+    color: #ffffff;
+    z-index: 1;
   }
   
   h2{
-    font-size: 23px;
-    top: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: left;
+    position: relative;
+    left: 10px;
+    top: -35px;
+    color: #ffffff;
+    z-index: 1;
   } 
   
   h3{
-    font-size:17px;
-    top: 60px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: right;
+    position: relative; 
+    top: 25px;
+    right: 10px;
+    color: #ffffff;
+    z-index: 1;
+  }
+
+  .mnlogo{
+    position: relative;
+    z-index: -2;
+    margin: 0px;
+    padding: 0px;
+    top:  -200px;
+    right: 10px;
+    width: 70%;
+  }
+
+  .mnlogowhite{
+    position: relative;
+    z-index: 1;
+    margin: 0px;
+    padding: 0px;
+    top:  -285px;
+    width: 100%;
   }
   }
