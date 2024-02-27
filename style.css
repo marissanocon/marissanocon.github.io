@@ -22,41 +22,82 @@ body {
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
   background-color: BD9EDB;
+  position: relative;
+  z-index: -3;
+}
+
+.card2{
+  background-color: rgba(115, 94, 146, 0.8);
+  border-style: solid;
+  border-color: rgba(150, 67, 233, 0.35);
+}
+
+.marissalogo{
+  position: relative;
+  left: 60px;
+  top: 55px;
+  margin: 0;
+  padding: 0;
+  width: 70%
+}
+
+.mnlogo{
+  position: relative;
+  z-index: -2;
+  margin: 0px;
+  padding: 0px;
+  top:  -240px;
+  right: 5px;
+  width: 75%;
+}
+
+.mnlogowhite{
+  position: relative;
+  z-index: 1;
+  margin: 0px;
+  padding: 0px;
+  top:  -345px;
+  right: 5px;
+  width: 100%;
 }
 
 h1{
-  margin-top: 0px;
+  margin-top: 20px;
   padding: 0px 0px;
   font-family: 'Kumbh Sans', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 20px;
   text-align: center;
-  position: relative; 
-  top: 1px; 
-  left:80px;
+  position: relative;
+  bottom: 10px;
+  left: 140px;
   color: #ffffff;
+  z-index: 1;
 }
 
 h2{
-  margin-top: 0px;
-  padding-top: 0px;
   font-family: 'Kumbh Sans', sans-serif;
+  font-size: 20px;
   font-weight: 200;
-  text-align: center;
-  position: relative; 
-  top: 40px;
+  text-align: left;
+  position: relative;
+  left: 10px;
+  top: -40px;
   color: #ffffff;
+  z-index: 1;
 } 
 
 h3{
-  margin-top: 0px;
-  padding-top: 0px;
   font-family: 'Kumbh Sans', sans-serif;
-  font-weight: 400;
-  text-align: center;
+  font-weight: 200;
+  text-align: right;
   position: relative; 
-  top: 100px;
+  top: 50px;
+  right: 10px;
   color: #ffffff;
+  z-index: 1;
 }
+
 /* How links are styled on page load and also after a link has been visited */
 a:link, a:visited {
   color: #0b8577;
