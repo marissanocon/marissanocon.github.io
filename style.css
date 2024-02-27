@@ -15,6 +15,7 @@ body {
 }
 /* the main card container */
 
+
 .card{
   width: 441px;
   height: 254px;
@@ -100,7 +101,7 @@ h3{
 
 /* How links are styled on page load and also after a link has been visited */
 a:link, a:visited {
-  color: #d5cdd8;
+  color: #ffffff;
   padding: 0px 0px;
   text-align: center;
   text-decoration: none;
@@ -109,6 +110,8 @@ a:link, a:visited {
 a:hover {
   color: rgb(91, 77, 95);
 }
+
+
 
 /* specific styling to scale elements down for mobile */
 @media only screen and (max-width: 900px) {
